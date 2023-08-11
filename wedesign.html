@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>WeDesign</title>
+    <link rel="stylesheet" href="/Wedesignstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dbb38a712e.js" crossorigin="anonymous"></script>
+    <script src="/wedesign.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="heading">
+                <img src="/fav_mini.png" alt="">
+                <section class="logo">WeDesign</section>
+            </div>
+                
+            <nav>
+                <ul>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <div id="menu-icon"  onclick="show()">
+                        <i  class="fa-solid fa-bars fa-lg"></i>
+                    </div>
+                    
+                </ul>
+            </nav>
+            
+            
+        </div>
+    </header>
+
+    <div id="slide" class="slider">
+        <div class="icon" >
+            <i id="close-icon" onclick="shut()" class="fa-solid fa-xmark"></i>
+        </div>
+        <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <section class="hero">
+
+        <img src="/webdesign1.jpg" alt="">
+
+        <div class="hero_content">
+            <div class="container">
+                <h1>We are WeDesign!</h1>
+                <p>You dream, we design and build.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="heading">
+                <h1>About Us</h1>
+                <hr>
+            </div>
+
+            <div class="slider_box">
+
+                <div class="title">
+                    <div id="mission" onclick="m()">
+                        <p>Mission</p>
+                    </div>
+                    <div id="vision" onclick="v()">
+                        <p>Vision</p>
+                    </div>
+                    <div id="values" onclick="vau()">
+                        <p>Values</p>
+                    </div>
+                </div>
+                <div class="content" id="para">
+                    <p>Duis ac leo nisi. Mauris nec ex id lorem commodo rutrum rutrum a est. Cras facilisis sit amet lectus non posuere. Nullam non magna non enim blandit elementum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+
+        <div class="container">
+
+            <div class="heading">
+                <h1>
+                    Services
+                </h1>
+                <hr>
+            </div>
+
+            <div class="discription">
+                <div class="arrow">
+                    <i id="left-arrow" onclick="left()" class="fa-solid fa-less-than"></i>
+                </div>
+                <div id="dis" class="content">
+                    <p>Web design. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tincidunt sem non sodales. Nunc et quam in magna vehicula sollicitudin. Aliquam erat volutpat. Maecenas dolor mi, aliquet ac quam aliquet, condimentum dictum nisi.</p>
+                </div>
+                <div class="arrow">
+                    <i id="right-arrow" onclick="right()" class="fa-solid fa-greater-than"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+
+        <div class="container">
+
+            <div class="heading">
+                <h1>Projects</h1>
+                <hr>
+            </div>
+
+            <div class="wrapper">
+                <div class="boxes">
+                    <img src="/project1.jpg" alt="">
+                    <div class="test"></div>
+                    <p>Bird Logo</p>
+                </div>
+                <div class="boxes">
+                    <img src="/project2.jpg" alt="">
+                    <div class="test"></div>
+                    <p>Emirates App</p>
+                </div>
+                <div class="boxes">
+                    <img src="/project3.jpg" alt="">
+                    <div class="test"></div>
+                    <p>Weather App</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+
+        <div class="container">
+
+            <div class="heading">
+                <h1>Contact</h1>
+                <hr>
+            </div>
+            <div class="form">
+                <form action="/" method="post">
+                    <input type="text" name="subject" placeholder="Subject"><br>
+                    <input type="text" name="name" placeholder="Full Name"><br>
+                    <input type="email" name="email" placeholder="E-mail Address"><br>
+                    <input type="text" name="message" placeholder="Message"><br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="discription">
+
+                <div class="boxes">
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                        <i class="fa-brands fa-square-instagram fa-2xl"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <h3>Location</h3>
+                    <p>Av. Paulista, 500
+                        São Paulo/SP
+                        T. 2245-0977
+                        contact@wedesign.com.br</p>
+                </div>
+                <div class="boxes">
+                    <h3>Opening Times</h3>
+                    <p>Mon-Fri: 11h30 - 24h00
+                        Saturday: 11h30 - 02h00
+                        Sunday: 11h30 - 18h</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <hr>
+                <p>2018 © All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
